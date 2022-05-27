@@ -50332,13 +50332,22 @@ function getConfig(env) {
     case 'production':
     case 'mainnet':
       return {
-        networkId: 'mainnet',
-        nodeUrl: 'https://rpc.mainnet.near.org',
+        networkId: 'testnet',
+        nodeUrl: 'https://rpc.testnet.near.org',
         contractName: CONTRACT_NAME,
-        walletUrl: 'https://wallet.near.org',
-        helperUrl: 'https://helper.mainnet.near.org',
-        explorerUrl: 'https://explorer.mainnet.near.org'
+        walletUrl: 'https://wallet.testnet.near.org',
+        helperUrl: 'https://helper.testnet.near.org',
+        explorerUrl: 'https://explorer.testnet.near.org'
       };
+
+    /* return {
+       networkId: 'mainnet',
+       nodeUrl: 'https://rpc.mainnet.near.org',
+       contractName: CONTRACT_NAME,
+       walletUrl: 'https://wallet.near.org',
+       helperUrl: 'https://helper.mainnet.near.org',
+       explorerUrl: 'https://explorer.mainnet.near.org',
+     }*/
 
     case 'development':
     case 'testnet':
@@ -50735,7 +50744,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42431" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34239" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
