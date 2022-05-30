@@ -1,6 +1,8 @@
 import 'regenerator-runtime/runtime'
 import React from 'react'
 import { login, logout } from './utils'
+import myVideo from './assets/video/new-file.mp4'
+
 import './global.css'
 
 import getConfig from './config'
@@ -42,10 +44,16 @@ export default function App() {
     return (
       <main>
         <h1>Welcome to NEAR!</h1>
+
+          <video width="750" height="500" controls >
+              <source src={myVideo} type="video/mp4"/>
+          </video>
         <p>
           To make use of the NEAR blockchain, you need to sign in. The button
           below will sign you in using NEAR Wallet.
         </p>
+
+
         <p>
           By default, when your app runs in "development" mode, it connects
           to a test network ("testnet") wallet. This works just like the main
@@ -152,6 +160,11 @@ export default function App() {
             </div>
           </fieldset>
         </form>
+
+          <video width="750" height="500" controls >
+              <source src={myVideo} type="video/mp4"/>
+          </video>
+
         <p>
           Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:
         </p>
