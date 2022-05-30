@@ -160,9 +160,7 @@ export default function App() {
           </fieldset>
         </form>
 
-          <video width="750" height="500" controls >
-              <source src={myVideo} type="video/mp4"/>
-          </video>
+          <img src={myVideo} alt="Gif"/>
 
         <p>
           Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:
