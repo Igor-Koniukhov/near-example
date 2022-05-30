@@ -1,7 +1,8 @@
 import 'regenerator-runtime/runtime'
 import React from 'react'
 import { login, logout } from './utils'
-import myVideo from './assets/video/new-file.mp4'
+import myVideo from './assets/video/D9FM.gif'
+
 
 import './global.css'
 
