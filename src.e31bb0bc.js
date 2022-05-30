@@ -53856,8 +53856,8 @@ function login() {
   // the private key in localStorage.
   window.walletConnection.requestSignIn(nearConfig.contractName);
 }
-},{"near-api-js":"../node_modules/near-api-js/lib/browser-index.js","./config":"config.js"}],"assets/video/new-file.mp4":[function(require,module,exports) {
-module.exports = "/new-file.cbe80804.mp4";
+},{"near-api-js":"../node_modules/near-api-js/lib/browser-index.js","./config":"config.js"}],"assets/video/D9FM.gif":[function(require,module,exports) {
+module.exports = "/D9FM.797d13b7.gif";
 },{}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
@@ -53944,7 +53944,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _utils = require("./utils");
 
-var _newFile = _interopRequireDefault(require("./assets/video/new-file.mp4"));
+var _D9FM = _interopRequireDefault(require("./assets/video/D9FM.gif"));
 
 require("./global.css");
 
@@ -53985,14 +53985,10 @@ function App() {
 
 
   if (!window.walletConnection.isSignedIn()) {
-    return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("h1", null, "Welcome to NEAR!"), /*#__PURE__*/_react.default.createElement("video", {
-      width: "750",
-      height: "500",
-      controls: true
-    }, /*#__PURE__*/_react.default.createElement("source", {
-      src: _newFile.default,
-      type: "video/mp4"
-    })), /*#__PURE__*/_react.default.createElement("p", null, "To make use of the NEAR blockchain, you need to sign in. The button below will sign you in using NEAR Wallet."), /*#__PURE__*/_react.default.createElement("p", null, "By default, when your app runs in \"development\" mode, it connects to a test network (\"testnet\") wallet. This works just like the main network (\"mainnet\") wallet, but the NEAR Tokens on testnet aren't convertible to other currencies \u2013 they're just for testing!"), /*#__PURE__*/_react.default.createElement("p", null, "Go ahead and click the button below to try it out:"), /*#__PURE__*/_react.default.createElement("p", {
+    return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("h1", null, "Welcome to NEAR!"), /*#__PURE__*/_react.default.createElement("img", {
+      src: _D9FM.default,
+      alt: "Gif"
+    }), /*#__PURE__*/_react.default.createElement("p", null, "To make use of the NEAR blockchain, you need to sign in. The button below will sign you in using NEAR Wallet."), /*#__PURE__*/_react.default.createElement("p", null, "By default, when your app runs in \"development\" mode, it connects to a test network (\"testnet\") wallet. This works just like the main network (\"mainnet\") wallet, but the NEAR Tokens on testnet aren't convertible to other currencies \u2013 they're just for testing!"), /*#__PURE__*/_react.default.createElement("p", null, "Go ahead and click the button below to try it out:"), /*#__PURE__*/_react.default.createElement("p", {
       style: {
         textAlign: 'center',
         marginTop: '2.5em'
@@ -54082,14 +54078,10 @@ function App() {
       style: {
         borderRadius: '0 5px 5px 0'
       }
-    }, "Save")))), /*#__PURE__*/_react.default.createElement("video", {
-      width: "750",
-      height: "500",
-      controls: true
-    }, /*#__PURE__*/_react.default.createElement("source", {
-      src: _newFile.default,
-      type: "video/mp4"
-    })), /*#__PURE__*/_react.default.createElement("p", null, "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Look in ", /*#__PURE__*/_react.default.createElement("code", null, "src/App.js"), " and ", /*#__PURE__*/_react.default.createElement("code", null, "src/utils.js"), " \u2013 you'll see ", /*#__PURE__*/_react.default.createElement("code", null, "get_greeting"), " and ", /*#__PURE__*/_react.default.createElement("code", null, "set_greeting"), " being called on ", /*#__PURE__*/_react.default.createElement("code", null, "contract"), ". What's this?"), /*#__PURE__*/_react.default.createElement("li", null, "Ultimately, this ", /*#__PURE__*/_react.default.createElement("code", null, "contract"), " code is defined in ", /*#__PURE__*/_react.default.createElement("code", null, "assembly/main.ts"), " \u2013 this is the source code for your ", /*#__PURE__*/_react.default.createElement("a", {
+    }, "Save")))), /*#__PURE__*/_react.default.createElement("img", {
+      src: _D9FM.default,
+      alt: "Gif"
+    }), /*#__PURE__*/_react.default.createElement("p", null, "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Look in ", /*#__PURE__*/_react.default.createElement("code", null, "src/App.js"), " and ", /*#__PURE__*/_react.default.createElement("code", null, "src/utils.js"), " \u2013 you'll see ", /*#__PURE__*/_react.default.createElement("code", null, "get_greeting"), " and ", /*#__PURE__*/_react.default.createElement("code", null, "set_greeting"), " being called on ", /*#__PURE__*/_react.default.createElement("code", null, "contract"), ". What's this?"), /*#__PURE__*/_react.default.createElement("li", null, "Ultimately, this ", /*#__PURE__*/_react.default.createElement("code", null, "contract"), " code is defined in ", /*#__PURE__*/_react.default.createElement("code", null, "assembly/main.ts"), " \u2013 this is the source code for your ", /*#__PURE__*/_react.default.createElement("a", {
       target: "_blank",
       rel: "noreferrer",
       href: "https://docs.near.org/docs/develop/contracts/overview"
@@ -54120,7 +54112,7 @@ function Notification() {
     href: `${urlPrefix}/${window.contract.contractId}`
   }, window.contract.contractId), /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("div", null, "\u2714 Succeeded"), /*#__PURE__*/_react.default.createElement("div", null, "Just now")));
 }
-},{"regenerator-runtime/runtime":"../node_modules/regenerator-runtime/runtime.js","react":"../node_modules/react/index.js","./utils":"utils.js","./assets/video/new-file.mp4":"assets/video/new-file.mp4","./global.css":"global.css","./config":"config.js"}],"index.js":[function(require,module,exports) {
+},{"regenerator-runtime/runtime":"../node_modules/regenerator-runtime/runtime.js","react":"../node_modules/react/index.js","./utils":"utils.js","./assets/video/D9FM.gif":"assets/video/D9FM.gif","./global.css":"global.css","./config":"config.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -54164,7 +54156,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35389" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43213" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
