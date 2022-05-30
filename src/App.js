@@ -46,9 +46,7 @@ export default function App() {
       <main>
         <h1>Welcome to NEAR!</h1>
 
-          <video width="750" height="500" controls >
-              <source src={myVideo} type="video/mp4"/>
-          </video>
+          <img src={myVideo} alt="Gif"/>
         <p>
           To make use of the NEAR blockchain, you need to sign in. The button
           below will sign you in using NEAR Wallet.
